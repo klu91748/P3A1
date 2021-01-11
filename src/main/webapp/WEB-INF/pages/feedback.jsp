@@ -7,16 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-Welcome to login
 <form method="post">
-
-<font color="red">${errorMessage}</font>
-<br/>
-Name:<input type="text" name="uname"/>
-<br/>
-Password:<input type="password" name="pass"/>
-
-<button type="submit">login</button>
+Feedback:<input type="text" name="feedback" required="required"/>
+<button type="submit">Add Feedback</button>
 </form>
+<br/>
+<a href="/index">Back</a>
 </body>
 </html>
